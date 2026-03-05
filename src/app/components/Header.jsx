@@ -31,7 +31,7 @@ const Header = () => {
             </p>
             <p className="group cursor-context-menu flex gap-2 items-center hover:text-gray-300">
               TYRES{" "}
-              <span className="text-amber-300">
+              <span className="text-green-300">
                 <FaAngleDown className="group-hover:hidden block"/>
                 <FaAngleUp className="hidden group-hover:block" />
               </span>
