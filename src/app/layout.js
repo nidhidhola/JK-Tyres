@@ -2,16 +2,16 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 
-export const InterLight = localFont({
-  src:[
-    {
-      path: "../../public/Font/Inter/static/Inter_18pt-Medium",
-      weight: "100",
-      style: "normal",
-    },
-  ],
-  variable: ""
-})
+// export const InterLight = localFont({
+//   src:[
+//     {
+//       path: "../../public/Font/Inter/static/Inter_18pt-Medium",
+//       weight: "100",
+//       style: "normal",
+//     },
+//   ],
+//   variable: ""
+// })
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
