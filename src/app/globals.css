@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.font-interlightMedium {
+  font-family: var(--font-interlightMedium);
+  font-weight: 300;
+}
+
+.font-oswald {
+  font-family: var(--font-oswald);
+  font-weight: 400;
+}
+
+.font-interlightLight {
+  font-family: var(--font-interlightLight);
+  font-weight: 300;
+}

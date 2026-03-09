@@ -21,31 +21,31 @@ const Header = () => {
           />
         </div>
         <div>
-          <div className="h-22 w-370 bg-black/50 rounded-l-3xl text-white flex items-center justify-between px-17 text-lg font-semibold">
+          <div className="h-22 w-370 bg-[#575f48]/95 rounded-l-3xl text-white flex items-center justify-between px-17 text-lg font-interlightMedium">
             <p className="group cursor-context-menu flex gap-2 items-center hover:text-gray-300">
               CORPORATE{" "}
-              <span className="text-amber-300">
+              <span className="text-[#ffeb00]">
                 <FaAngleDown className="group-hover:hidden block"/>
                 <FaAngleUp className="hidden group-hover:block" />
               </span>
             </p>
             <p className="group cursor-context-menu flex gap-2 items-center hover:text-gray-300">
               TYRES{" "}
-              <span className="text-green-300">
+              <span className="text-[#ffeb00]">
                 <FaAngleDown className="group-hover:hidden block"/>
                 <FaAngleUp className="hidden group-hover:block" />
               </span>
             </p>
             <p className="group cursor-context-menu flex gap-2 items-center hover:text-gray-300">
               INVESTORS{" "}
-              <span className="text-amber-300">
+              <span className="text-[#ffeb00]">
                 <FaAngleDown className="group-hover:hidden block"/>
                 <FaAngleUp className="hidden group-hover:block" />
               </span>
             </p>
             <p className="group cursor-context-menu flex gap-2 items-center hover:text-gray-300">
               MEDIA{" "}
-              <span className="text-amber-300">
+              <span className="text-[#ffeb00]">
                 <FaAngleDown className="group-hover:hidden block"/>
                 <FaAngleUp className="hidden group-hover:block" />
               </span>
@@ -53,7 +53,7 @@ const Header = () => {
             <p className="cursor-pointer hover:text-gray-300">CAREERS</p>
             <p className="group cursor-context-menu flex gap-2 items-center hover:text-gray-300">
               CONTACT US{" "}
-              <span className="text-amber-300">
+              <span className="text-[#ffeb00]">
                 <FaAngleDown className="group-hover:hidden block"/>
                 <FaAngleUp className="hidden group-hover:block" />
               </span>

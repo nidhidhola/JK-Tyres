@@ -2,16 +2,41 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 
-// export const InterLight = localFont({
-//   src:[
-//     {
-//       path: "../../public/Font/Inter/static/Inter_18pt-Medium",
-//       weight: "100",
-//       style: "normal",
-//     },
-//   ],
-//   variable: ""
-// })
+export const InterLightMedium = localFont({
+  src:[
+    {
+      path: "../../public/Font/Inter/static/Inter_18pt-Medium.ttf",
+      weight: "100",
+      style: "normal",
+    },
+  ],
+  variable: "--font-interlightMedium",
+  display: "swap"
+});
+
+export const Oswald = localFont({
+  src:[
+    {
+      path: "../../public/Font/Oswald/static/Oswald-Regular.ttf",
+      weight: "100",
+      style: "normal",
+    },
+  ],
+  variable: "--font-oswald",
+  display: "swap"
+});
+
+export const InterLightLight = localFont({
+  src:[
+    {
+      path: "../../public/Font/Inter/static/Inter_18pt-Light.ttf",
+      weight: "100",
+      style: "normal",
+    },
+  ],
+  variable: "--font-interlightLight",
+  display: "swap"
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +57,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${InterLightMedium.variable} ${Oswald.variable} ${InterLightLight.variable} antialiased`}
       >
         {children}
       </body>

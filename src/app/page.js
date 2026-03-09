@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 const page = () => {
   return (
@@ -9,6 +10,7 @@ const page = () => {
         style={{ backgroundImage: "url('/Images/homepage-banner.webp')" }}
       >
         <Header />
+        <Hero />
       </div>
     </div>
   );
